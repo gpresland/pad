@@ -1,0 +1,36 @@
+{
+  "name": "pad",
+  "version": "1.0.1",
+  "description": "A simple padding library.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpresland/pad.git"
+  },
+  "keywords": [
+    "pad",
+    "padleft",
+    "padright"
+  ],
+  "author": "gpresland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpresland/pad/issues"
+  },
+  "homepage": "https://github.com/gpresland/pad#readme"
+}
