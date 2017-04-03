@@ -29,6 +29,14 @@ describe('pad.left', function () {
     expect(padded).to.equal('001');
   });
 
+  it('Should pad a number', function () {
+    const string = 1;
+    const length = 3;
+    const char = 0;
+    const padded = pad.left(string, length, char);
+    expect(padded).to.equal('001');
+  });
+
 });
 
 describe('pad.right', function () {
@@ -51,6 +59,14 @@ describe('pad.right', function () {
 
   it('Should pad with a number', function () {
     const string = '1';
+    const length = 3;
+    const char = 0;
+    const padded = pad.right(string, length, char);
+    expect(padded).to.equal('100');
+  });
+
+  it('Should pad a number', function () {
+    const string = 1;
     const length = 3;
     const char = 0;
     const padded = pad.right(string, length, char);
