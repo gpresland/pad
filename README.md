@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gpresland/pad.svg?branch=master)](https://travis-ci.org/gpresland/pad)
+
 # Pad
 
 A simple padding library.
